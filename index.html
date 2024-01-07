@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+            <h1 id="title">Title Page</h1>
+        
+    </head>
+    <body>
+    <p id="description">Explanation here</p>
+    <hr>
+    <form id="survey-form">
+        <label id="name-label">Name<input id="name" type="text" placeholder="Name" required></label><br>
+        <label id="email-label">Email<input id="email" type="email" placeholder="Email" required></label><br>
+        <label id="number-label">Number<input id="number" type="number" placeholder="Number" min="10" max="10"></label><br>
+        
+        <label for="Animals">Animals </label><br>
+        <select name="animals" id="dropdown">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+        </select><br>
+        
+        <input type="radio" name="owned" value="cat">
+        <label for="cat">Cat</label><br>
+        <input type="radio" name="owned" value="dog">
+        <label for="dog">Dog</label><br>
+        
+        <input type="checkbox" id="cat1" name="cat1" value="Abyssinian">
+        <label for="cat1">Abyssinians are the best</label><br>
+        <input type="checkbox" id="dog1" name="dog1" value="Golden Retriever">
+        <label for="dog1">Golden Retrievers are the best</label><br>
+        <input type="checkbox" id="cat2" name="cat2" value="Bengal">
+        <label for="cat2">Bengals are the best</label><br>
+        <input type="checkbox" id="dog2" name="dog2" value="Pug">
+        <label for="dog2">Pugs are the best</label><br>
+        
+        <label for="animalcomments">Tell us more about your favorite animal:</label>
+        <textarea id="animalcomments" name="animalcomments" rows="4" cols="50"></textarea><br>
+        
+        <button id="submit">Submit</button>
+
+    </form>
+</body>
+</html>
